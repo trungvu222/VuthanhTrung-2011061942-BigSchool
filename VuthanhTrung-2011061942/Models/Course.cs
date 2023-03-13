@@ -14,7 +14,7 @@ namespace VuthanhTrung_2011061942.Models
         [Required]
         public string LecturerId { get; set; }
         [Required]
-        [StringLength(255)]
+        [StringLength(255)] //chỉ được ghi tối đa 255 ký tự
         public string Place { get; set; }
         public DateTime DateTime { get; set; }
         public Category Category { get; set; }
